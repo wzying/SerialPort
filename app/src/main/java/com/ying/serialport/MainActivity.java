@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     EditText mReception;
     FileOutputStream mOutputStream;
     FileInputStream mInputStream;
-    SerialPort sp;//要实例化了才能使用，要不就不正常
+    SerialPort sp;//要实例化了才能使用
     Thread thread;
     int size;
     byte[] buffer = new byte[64];
